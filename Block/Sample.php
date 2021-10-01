@@ -7,7 +7,7 @@ class Sample extends \Magento\Framework\View\Element\Template {
         return ($a*$a);
     }
     public function getAnotherFuntion() {
-        $html = '<p>Make this world a beautiful place to live.</p>';
+        $html = '<p>Make this world a beautiful place to live.<b></p>';
         return $html;
     }
 }
